@@ -6,12 +6,10 @@ export const settings = {
     buttonCancel: 'Cancel',
     defaultText: 'Add new item',
   },
-
   search: {
     defaultText: 'Search...',
     icon: 'search',
   },
-  
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
@@ -19,6 +17,12 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+  titleFAQ: 'FAQ',
+  descriptionFAQ: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  imageFAQ: 'https://i.postimg.cc/k5rBGS5s/book-coffee-computer-desk-430546.jpg',
+  titleInfo: 'Info',
+  descriptionInfo: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  imageInfo: 'https://i.postimg.cc/RZK7V4Tk/acer-chromebook-on-the-white-desk-6598.jpg',
 };
 
 export const listData = {
@@ -144,7 +148,7 @@ const cards = [
 ];
 
 const initialStoreData = {
-  app: {...pageContents},
+  app: { ...pageContents },
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
