@@ -3,7 +3,7 @@
 .component {
   flex-shrink: 0;
   width: calc(33% - 12px);
-  background: $color-light;
+  background: $color-background;
   margin: 0 $base-size $base-size 0;
   padding: ($base-size * 1.5);
   border-radius: $radius;
